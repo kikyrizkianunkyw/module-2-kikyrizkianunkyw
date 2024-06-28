@@ -1,72 +1,28 @@
-Home Page
+# About this Website
 
-Welcome Message
-Beautiful hero image of tulips
-Brief introduction about tulips
-About Tulips
+This website celebrates the enchanting world of tulips, offering a rich exploration of their history, varieties, and gardening tips. Whether you're a seasoned tulip enthusiast or just beginning to discover their beauty, La Tulipa is your gateway to delve into their cultural significance and growing techniques. Join us in cultivating a community passionate about these vibrant flowers and uncovering the joy they bring to gardens worldwide.
 
-History and Origin
-The historical significance of tulips
-Origin and cultural importance
-Botanical Information
-Scientific classification
-Description of the plant structure
-Varieties
-Different types and species of tulips
-Images and descriptions of popular varieties
-Cultivation and Care
+Click this link to see the preview:
+<a href="https://revou-fsse-5.github.io/module-1-kikyrizkianunkyw/">https://revou-fsse-5.github.io/module-1-kikyrizkianunkyw/</a>
 
-Planting Tips
-Soil requirements
-Planting depth and spacing
-Growing Conditions
-Ideal climate and environment
-Watering, sunlight, and fertilizing
-Seasonal Care
-Year-round care instructions
-Tips for extending bloom time
-Tulip Festivals and Events
+## About The Code
+This project features an HTML structure designed for the La Tulipa website, incorporating a responsive design optimized for various devices. The accompanying CSS utilizes flexbox and grid layout techniques to ensure seamless navigation and visual appeal across screens. Media queries adjust the layout for enhanced readability on smaller devices, offering an immersive experience whether browsing on a desktop or a smartphone.
 
-List of major tulip festivals around the world
-Highlights and activities of each festival
-Visitor information and tips
-Tulip Symbolism and Uses
+## About Me 
+<img src="https://i.ibb.co.com/jLcMssM/French-Girl-Chic-Leia-Sfez.png" alt="Kiky Rizkia" width="200" />
 
-Symbolism
-Meanings and symbolism associated with tulips
-Tulip colors and their significance
-Uses
-Uses in gardens and landscaping
-Tulips in art and culture
-Photo Gallery
 
-High-quality images of various tulip varieties
-User-submitted photos
-Inspirational garden designs featuring tulips
-Resources
+Hello, my name is Kiky Rizkianunky Woluwo, known as Kiky. I was born in 2000. I am from Makassar and graduated from Universitas Hasanuddin Makassar. I like coffee; I used to prefer robusta beans, but now I think I prefer arabica beans. Thank you.
 
-Books and Articles
-Recommended reading for tulip enthusiasts
-Gardening Tools and Supplies
-Tools and supplies for growing tulips
-Links
-Links to related websites and online communities
-Blog
+---
 
-Regular posts about tulip-related topics
-Guest posts from experts or gardeners
-Seasonal tips and trends
-Contact
+## Contact
 
-Contact form for inquiries
-Social media links
-Subscription option for newsletters
-FAQ
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1000px-Instagram_logo_2022.svg.png" alt="Instagram" width="20" /> @thatblackhairlady_
 
-Frequently asked questions about tulips
-Troubleshooting common issues in tulip cultivation
-Shop (optional)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/480px-LinkedIn_logo_initials.png" alt="linkedin" width="20" /> [Kiky Rizkianunky Woluwo](https://www.linkedin.com/in/kiky-rizkianunky-woluwo-a742761b7/)  
 
-Online store selling tulip bulbs, seeds, and gardening tools
-Books and decorative items featuring tulips
-Each section should be well-organized and visually appealin
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png" alt="Gmail" width="20" /> [Kiky Rizkianunky Woluwo](mailto:kikyrizkianunkywofficial@gmail.com)
+
+
+
