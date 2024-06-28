@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Tulipa</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <div class="headerLogo">La Tulipa</div>
+            <nav class="headerNav">
+                <a href="home.html" class="headerNav-link">Home</a>
+                <a href="page.html" class="headerNav-link">About</a>
+                <a href="contact.html" class="headerNav-link">FAQ</a>
+                <a href="about.html" class="headerNav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home -->
+        <section>
+            <!-- flexContainer -->
+            <div class="mainHomeCtr">  
+                <div class="mainHomeCtr1">
+                    <h1 class="mainH1Home">Welcome to La Tulipa Blog</h1>
+                    <div class="mainPHome">
+                        <p>Welcome to Tulip Haven! Dive into the rich and fascinating biography of tulips, exploring their history, varieties, and cultural significance. Discover tips on planting, care, and design to help you cultivate these stunning flowers in your own garden. Join our community, share your passion for tulips, and celebrate the beauty and joy they bring to life!</p>
+                        <p>Scroll to see more</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section><br><br><br><br><br><br>
+
+        <!-- About -->
+        <section class="aboutHomeCtr">
+            <div class="aboutFlxCtr">
+                <div class="aboutCtr">
+                    <h1 class="mainH1About">About Tulip</h1>
+                    <p class="mainPAbout">Tulip, (genus Tulipa), genus of about 100 species of bulbous herbs in the lily family, many of which are cultivated in temperate regions for their showy blooms. Native to Central Asia and Turkey, tulips are among the most popular of all garden flowers, and numerous cultivars and varieties have been developed.</p>
+                </div>
+                <img class="aboutImg" src="assets\a-removebg-preview.png">
+            </div>
+
+            <div class="hstryFlxCtr">
+                <!-- <img class="historyImg" src="assets\h.jpg"> -->
+                <picture class="historyImg">
+                    <source srcset="assets\hp.jpg" media="(max-width: 600px)">
+                    <source srcset="assets\tengah.jpg" media="(max-width: 1200px)">
+                    <source srcset="assets\besar.jpeg" media="(min-width: 1201px)">
+                    <img src="assets/h.jpg" alt="History image" class="responsiveImg"> 
+                </picture>
+                <div class="aboutCtr">
+                    <h2 class="mainH1History">History And Origin</h2>
+                    <p class="mainPHistory">Tulip, (genus Tulipa), genus of about 100 species of bulbous herbs in the lily family, many of which are cultivated in temperate regions for their showy blooms. Native to Central Asia and Turkey, tulips are among the most popular of all garden flowers, and numerous cultivars and varieties have been developed.</p>
+                </div>
+                </div>
+            </div>
+
+            <div class="vrtsFlxCtr">
+                <div class="aboutCtr">
+                    <h2 class="mainH1Vrts">Varieties</h2>
+                    <p class="mainPVrts">Tulip, (genus Tulipa), genus of about 100 species of bulbous herbs in the lily family, many of which are cultivated in temperate regions for their showy blooms. Native to Central Asia and Turkey, tulips are among the most popular of all garden flowers, and numerous cultivars and varieties have been developed.</p>
+                </div>
+                <img class="vrtsImg" src="assets\pexels-kimvanvuuren-1586498.jpg">
+                </div>
+            </div>
+          
+          
+        </section><br>
+
+        <!-- image pages -->
+        <section class="imageGallery">
+            <div class="mainImgContainer parent">
+                <div id="item1" class="grid-item">
+                    <img class="imgPages" src="assets\d.jpg">
+                </div>
+                <div id="item2" class="grid-item">
+                    <img class="imgPages" src="assets\e.jpg">
+                </div>
+                <div id="item3" class="grid-item">
+                    <img class="imgPages" src="assets\f.jpg">
+                </div>
+                <div id="item4" class="grid-item">
+                    <img class="imgPages" src="assets\i.jpg">
+                </div>
+                <div id="item5" class="grid-item">
+                    <img class="imgPages" src="assets\pexels-ancatakespics-7118701.jpg">
+                </div>
+            </div>
+        </section><br>
+
+        <!-- FAQ -->
+        <section class="mainFaqCtr">
+            <div>
+                <h1>FAQ</h1>
+            </div>
+        </section><br>
+
+        <!-- Contact -->
+        <section class="mainContactCtr">
+            <div>
+                <h1>Contact</h1>
+            </div>
+            <form>
+                <fieldset>
+                    <div>
+                        <label for="name">Name :</label>
+                        <input id="name" type="text" class="text">
+                    </div>
+
+                    <div>
+                        <label for="email">Email :</label>
+                        <input id="email" type="text" class="text">>
+                    </div>
+
+                    <div>
+                        <p>Are you beginner in Florist?</p>
+                        <input type="radio" id="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no">
+                        <label for="no">No</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+
+                </fieldset>
+            </form>
+        </section>
+
+       
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+
+</html>
+
+<!-- <picture>
+    <source srcset="assets\a.jpg" media="(min-width : 768px)">
+    <img src="assets\b.jpg" alt="tulip"
+</picture>
+<br><br>
+<img src="assets\b.jpg"> -->
