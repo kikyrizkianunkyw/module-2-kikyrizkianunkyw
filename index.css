@@ -51,6 +51,18 @@
 
 }
 
+@keyframes textShadowColor {
+    0% {
+        text-shadow: 2px 2px 4px rgb(248, 238, 238); /* Start with initial shadow */
+    }
+    50% {
+        text-shadow: 2px 2px 4px rgba(246, 67, 138, 0.868); /* Midway change shadow color to red */
+    }
+    100% {
+        text-shadow: 2px 2px 4px rgba(157, 46, 255, 0.5); /* End with shadow color change to blue */
+    }
+}
+
 .mainH1Home {
     font-size: 4rem;
     color: black;
@@ -59,6 +71,7 @@
     padding-right: 25%;
     margin-top: 200px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: textShadowColor 5s infinite alternate; /* Apply the animation with a 5s duration, infinite loop, and alternate direction */
 }
 
 .mainPHome {
@@ -73,13 +86,13 @@
 
 /* main About */
 .aboutHomeCtr {
-    background-color: red;
+    
     padding: 3.5rem;
     margin-top: 3.5rem;
 }
 
 .aboutFlxCtr {
-    background-color: greenyellow;
+    
     display: flex;
     align-items: flex-start;
     height: 80%;
@@ -87,7 +100,7 @@
 
 /* Default styling for aboutCtr */
 .aboutCtr {
-    background-color: blue;
+
     padding: 1rem;
     margin: 1rem;
     width: 60%;
@@ -116,20 +129,13 @@
 }
 
 
-
-/* .aboutCtr {
-    background-color: blue;
-    padding: 1rem;
-    
-} */
-
 .mainH1About {
     font-size: 3rem;
     padding-top: 1rem;
 }
 
 .mainPAbout {
-    background-color: yellow;
+   
     margin: 3rem;
     font-size: 1.2rem;
     line-height: 30px;
@@ -149,7 +155,7 @@
 
 /* main history */
 .hstryFlxCtr {
-    background-color: pink;
+    
     display: flex;
     align-items: flex-start;
     height: 80%;
@@ -187,7 +193,7 @@
 
 /* main Varieties */
 .vrtsFlxCtr {
-    background-color: palevioletred;
+   
     display: flex;
     align-items: flex-start;
     height: 80%;
@@ -208,10 +214,44 @@
     margin-right: rem;
 }
 
+.vrtsImg {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    transition: transform 0.3s ease-in-out; /* Transition effect for zoom */
+}
+
+.vrtsImg:hover {
+    transform: scale(1.1); /* Zoom in effect on hover */
+}
+
+
+.mainUlVrts {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;
+}
+
+.mainUlVrts li {
+    position: relative;
+    padding-left: 25px; /* Space for custom bullet */
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.mainUlVrts li::before {
+    content: "•"; /* Custom bullet character */
+    position: absolute;
+    left: 0;
+    color: #f45b69; /* Custom bullet color */
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+
 
 /* Image pages */
 .imageGallery {
-    background-color: blue;
+   
     padding: 4rem;
     width: 90%;
     height: 50%;
