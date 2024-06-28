@@ -1,0 +1,274 @@
+/* Header */
+.headerContainer {
+    display: flex;
+    height: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.headerNav {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.headerNav a {
+    position: relative;
+}
+
+.headerNav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.headerNav-link:hover {
+    text-decoration : underline;
+}
+
+/* Main Home Container */
+
+
+.mainHomeCtr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem; /* To prevent content from hiding behind the fixed header */
+}
+
+.mainHomeCtr1 { 
+    text-align: center;
+    color: black;
+    background-color: white;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 48px;
+    background-image: url('assets/g.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.mainH1Home {
+    font-size: 4rem;
+    color: black;
+    font-family: 'Poltawski Nowy', serif;
+    margin-bottom: 20px; /* Adjust as needed for spacing */
+    padding-right: 25%;
+    margin-top: 200px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mainPHome {
+    background-color: white;
+    font-size: 1.2rem;
+    margin: 20px 100px; /* Adjust as needed for spacing */
+    padding: 20px;
+    padding-top: 30px;
+    margin-top: 200px; /* Move down the position */
+    line-height: 30px;
+}
+
+/* main About */
+.aboutHomeCtr {
+    background-color: red;
+    padding: 3.5rem;
+    margin-top: 3.5rem;
+}
+
+.aboutFlxCtr {
+    background-color: greenyellow;
+    display: flex;
+    align-items: flex-start;
+    height: 80%;
+}
+
+/* Default styling for aboutCtr */
+.aboutCtr {
+    background-color: blue;
+    padding: 1rem;
+    margin: 1rem;
+    width: 60%;
+}
+
+/* Responsive styling for aboutCtr */
+@media (min-width: 1200px) {
+    .aboutCtr {
+        width: 80%;
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .aboutCtr {
+        width: 90%;
+        margin: 1rem auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutCtr {
+        width: 100%;
+        margin: 1rem auto;
+    }
+}
+
+
+
+/* .aboutCtr {
+    background-color: blue;
+    padding: 1rem;
+    
+} */
+
+.mainH1About {
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.mainPAbout {
+    background-color: yellow;
+    margin: 3rem;
+    font-size: 1.2rem;
+    line-height: 30px;
+    text-align: justify;
+    margin-left: 5rem;
+    width: 80%;
+}
+
+.aboutImg {
+    width: 410px;
+    height: 410px;
+    object-fit: cover;
+    aspect-ratio: 1;
+    margin-right: 3.5rem;
+    margin-top: 60px;
+}
+
+/* main history */
+.hstryFlxCtr {
+    background-color: pink;
+    display: flex;
+    align-items: flex-start;
+    height: 80%;
+    margin-top: 5rem;
+}
+
+.historyImg {
+    /* width: 100%; */
+    /* max-width: 500px; Adjust as needed for the desired maximum width */
+    /* height: auto; Maintain aspect ratio */
+    object-fit: cover;
+    margin-right: 4rem;
+    aspect-ratio: 1;
+}
+
+.responsiveImg {
+    width: 100%;
+    height: 100%; 
+}
+
+
+/* .historyImg {
+    width: 50%;
+    height: 410px;
+    object-fit: cover;
+    aspect-ratio: 2;
+    margin-right: 3.5rem;
+} */
+
+.mainH1History {
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+
+/* main Varieties */
+.vrtsFlxCtr {
+    background-color: palevioletred;
+    display: flex;
+    align-items: flex-start;
+    height: 80%;
+    margin-top: 5rem;
+}
+
+.mainH1Vrts {
+    font-size: 5rem;
+    padding-top: 1rem;
+    padding-left: 5rem;
+}
+
+.vrtsImg {
+    width: 500px;
+    height: 700px;
+    object-fit: cover;
+    aspect-ratio: 2;
+    margin-right: rem;
+}
+
+
+/* Image pages */
+.imageGallery {
+    background-color: blue;
+    padding: 4rem;
+    width: 90%;
+    height: 50%;
+}
+
+.mainImgContainer {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    grid-auto-rows: 320px 320px;
+}
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#item1 {
+    grid-column: 1;
+    grid-row: 1 / 2 span;
+}
+
+#item2 {
+    grid-row: 1;
+    grid-column: 2 / 2 span;
+}
+
+#item5 {
+    grid-column: 4;
+    grid-row: 1 / 2 span;
+}
+
+
+
+/* Contact */
+form {
+    display: block;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    display: block;
+    border-radius: 2px;
+}
+
+fieldset div {
+    display: block;
+}
+
+.text {
+    width: 100%;
+    padding: 4px 4px;
+    margin: 8px 0;
+    display: block;
+}
+
+
