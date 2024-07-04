@@ -1,9 +1,16 @@
+body {
+    background-color: #ffffff;
+}
 /* Header */
+p, li{
+    font-family: "Cormorant Garamond", serif;
+}
+
 .headerContainer {
     display: flex;
     height: 20px;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: #FFE5A0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -84,15 +91,18 @@
     line-height: 30px;
 }
 
+#homeP2 {
+    color: #ff70bc;
+}
 /* main About */
 .aboutHomeCtr {
-    
+    background-color: #ffffff;
     padding: 3.5rem;
-    margin-top: 3.5rem;
+    margin-top: 1rem;
 }
 
 .aboutFlxCtr {
-    
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: flex-start;
     height: 80%;
@@ -100,7 +110,7 @@
 
 /* Default styling for aboutCtr */
 .aboutCtr {
-
+    
     padding: 1rem;
     margin: 1rem;
     width: 60%;
@@ -130,6 +140,7 @@
 
 
 .mainH1About {
+    font-family: 'Poltawski Nowy', serif;
     font-size: 3rem;
     padding-top: 1rem;
 }
@@ -186,6 +197,7 @@
 } */
 
 .mainH1History {
+    font-family: 'Poltawski Nowy', serif;
     font-size: 3rem;
     padding-top: 1rem;
 }
@@ -201,6 +213,7 @@
 }
 
 .mainH1Vrts {
+    font-family: 'Poltawski Nowy', serif;
     font-size: 5rem;
     padding-top: 1rem;
     padding-left: 5rem;
@@ -251,13 +264,25 @@
 
 /* Image pages */
 .imageGallery {
-   
+    background-color: #ffebef;
     padding: 4rem;
     width: 90%;
     height: 50%;
+    padding-top: 2rem;
+}
+
+.imageGallery h1 {
+    font-family: 'Poltawski Nowy', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1px;
+    margin-bottom: 2rem;
 }
 
 .mainImgContainer {    
+    background-color: #fff9fa;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
@@ -285,19 +310,107 @@
     grid-row: 1 / 2 span;
 }
 
+/* faq */
+.mainFaqCtr {
+    border-block-start-width: 0px;
+    background-color: #FFE5A0;
+    padding: 4rem;
+    width: 90%;
+    height: auto;
+    padding-top: 3rem;
+}
+
+.mainFaqCtr h1 {
+    font-family: 'Poltawski Nowy', serif;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 1px;
+}
+
+.mainFaqCtr p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.faqContainer {    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+    /* grid-auto-rows: 320px 320px; */
+}
+
+.faqGrid-item {
+    margin-left: 12%;
+}
+
+.faqGrid-item img {
+    width: 410px;
+    height: 410px;
+    object-fit: cover;
+    aspect-ratio: 1;
+    display: flex;
+}
 
 
-/* Contact */
+
+#faqItem1 {
+
+}
+
+#faqItem2 {
+    
+}
+
+.faqUl {
+    margin: auto;
+    margin-right: 2rem;
+    padding-right: 4rem;
+    display: flex;
+    justify-content: center;
+   }
+
+.faqUl p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    line-height: 1.8rem;
+}
+
+/* Comunity */
+.comunityCtr h1 {
+    font-family: 'Poltawski Nowy', serif;
+    display: flex;
+    justify-content: center;
+    text-align :center;
+    font-size: 2.5rem;
+    margin: 1rem;
+}
+
+.comunityCtr p {
+    display: flex;
+    justify-content: center;
+    text-align :center;
+    font-size: 1rem;
+    margin: 1rem;
+}
+
 form {
     display: block;
-    max-width: 500px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
 }
 
 fieldset {
     display: block;
-    border-radius: 2px;
+    /* border-radius: 2px; */
+    border: none;
 }
 
 fieldset div {
@@ -309,6 +422,53 @@ fieldset div {
     padding: 4px 4px;
     margin: 8px 0;
     display: block;
+    border-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.rdioBtnComunity {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.btnCtrComunity {
+    margin: 2rem;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.btnComunity {
+    padding: .65rem 1.75rem;
+    background-color: #FFE5A0;
+    border-radius: 5px;
+    border: none;
+}
+
+.mainContactCtr {
+    margin-top: 2rem;
+    background-color: #f4f0e5;
+    height: 600px;
 }
 
 
+/* footer */
+.footer {
+    padding: 5px;
+    background-color: #f4f0e5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0);
+}
+
+.footer p{
+    color: #ff70bc;
+}
+
+/* animation */
+/* background-repeat: no-repeat;
+background-position-x: center;
+background-position-y: top;
+transition-property: background-size;
+transition-duration: 3s; */
