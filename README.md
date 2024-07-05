@@ -4,6 +4,7 @@ This website celebrates the enchanting world of tulips, offering a rich explorat
 
 Click this link to see the preview:
 <a href="https://revou-fsse-5.github.io/module-2-kikyrizkianunkyw/">https://revou-fsse-5.github.io/module-2-kikyrizkianunkyw/</a>
+<a href="https://latulipa.site/">https://latulipa.site/</a>
 
 ## About The Code
 This project features an HTML structure designed for the La Tulipa website, incorporating a responsive design optimized for various devices. The accompanying CSS utilizes flexbox and grid layout techniques to ensure seamless navigation and visual appeal across screens. Media queries adjust the layout for enhanced readability on smaller devices, offering an immersive experience whether browsing on a desktop or a smartphone.
