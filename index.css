@@ -464,15 +464,34 @@ fieldset div {
 .mainContactCtr {
     margin-top: 2rem;
     background-color: #f4f0e5;
-    height: 600px;
+    height: 450px;
 }
 .contactCtr {    
-    background-color: #b13d51;
+    /* background-color: #; */
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 16px;
     grid-auto-rows: 320px 320px;
+    padding: 2rem;
 }
+
+.contactItem1 p{
+    justify-content: left;
+    text-align: justify;
+    line-height: 1.5rem;
+    color: #b13d51;
+}
+
+#contactDivItem1 {
+    margin-top: 4rem;
+}
+
+#contactDivItem1 p{
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+
 
 
 /* footer */
@@ -483,7 +502,7 @@ fieldset div {
 }
 
 .footer p{
-    color: #ff70bc;
+    color: #b13d51;
 }
 
 /* animation */
