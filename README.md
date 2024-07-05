@@ -21,7 +21,7 @@ Design and create your HTML and CSS files in a code editor.
 ##### 2. Clone the Repository
 Clone the fsse RevoU Modul2 repository to your computer.
 
-##### 3. Push HTML Pages to GitHub
+##### 3. Push HTML Pages to GitHub then fork the origin repo
 Add, commit, and push your HTML pages and all required files to the GitHub repository.
 
 \`\`\`sh
@@ -30,11 +30,16 @@ git commit -m "Add HTML and CSS files"
 git push origin main
 \`\`\`
 
+Fork the fsse RevoU Modul2 repository to your own GitHub account, then clone the forked repository to your computer and merge your changes then remote it so it will connect to fsse Revou modul2 repo, pull the repository then push it from the repository that you have forked.
+
 ##### 4. Deploy to Netlify
 Sign up for a Netlify account if you don't already have one, and connect your GitHub repository.
 
+<img src="https://i.ibb.co.com/3S16HGP/step1.png" alt="Sign up netlify and connect to github" width="500">
+
 ##### 5. Add New Site on Netlify
 On the Netlify dashboard, click "Add new site" and choose the repository you want to deploy.
+<img src="https://i.ibb.co.com/4PqYg27/step2.png" alt="step2" width="500">
 
 ##### 6. Configure and Deploy
 Follow the prompts to configure the site and deploy it. This includes setting up build settings if necessary.
@@ -60,6 +65,7 @@ On your Netlify site dashboard, go to the "Domain" tab to find the DNS settings.
 
 ##### 10. Update DNS Settings
 Go back to your domain registrar's DNS settings and paste the copied DNS information into the appropriate fields.
+<img src="https://i.ibb.co.com/WcMNZ2T/step3.png" alt="step3" width="500">
 
 ##### 11. Save and Wait
 Save your changes and wait for the DNS propagation, which can take a few minutes to a few hours.
