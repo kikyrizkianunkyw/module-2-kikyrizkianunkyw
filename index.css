@@ -98,7 +98,8 @@ p, li{
 }
 
 #homeP2 {
-    color: #ff70bc;
+    color: #b13d51;
+    font-weight: bold;
 }
 /* main About */
 .aboutHomeCtr {
@@ -295,7 +296,7 @@ p, li{
 }
 
 .mainImgContainer {    
-    background-color: #fff9fa;
+    background-color: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
@@ -322,6 +323,18 @@ p, li{
     grid-column: 4;
     grid-row: 1 / 2 span;
 }
+
+.imageItem1 {
+    max-width: 100%;
+    transition: transform 0.3s ease-out;
+}
+
+.imageItem1:hover {
+    transform: scale(1.1);
+}
+
+
+
 
 /* faq */
 .mainFaqCtr {
@@ -457,7 +470,7 @@ fieldset div {
 .btnComunity {
     padding: .65rem 1.75rem;
     background-color: #FFE5A0;
-    border-radius: 5px;
+    border-radius: 4px;
     border: none;
 }
 
@@ -480,6 +493,9 @@ fieldset div {
     text-align: justify;
     line-height: 1.5rem;
     color: #b13d51;
+    font-size: 1.1rem;
+    font-family: serif;
+    
 }
 
 #contactDivItem1 {
@@ -489,10 +505,60 @@ fieldset div {
 #contactDivItem1 p{
     margin-bottom: 1px;
     margin-top: 0px;
+   
 }
 
+.contactP1 {
+    font-weight: bold;
+  
+}
 
+#contactItem2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 
+#emailContact {
+    border-radius: 8px;
+    width: 90%;
+    height: 40px;
+}
+
+.btnContactCtr {
+    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.btnContact {
+    padding: .65rem 1.75rem;
+    background-color: #FFE5A0;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    height: 40px;
+}
+
+.listContact {
+    padding-left: 4rem;
+}
+
+.liContact  {
+    list-style: none;
+    line-height: 2rem;
+    color: #b13d51;
+    font-family: serif;
+}
+
+#helpContact {
+    font-weight: bold;
+    color: #b13d51;
+    font-family: serif;
+    display: flex;
+    justify-content: start;
+    padding-left: 3rem;
+}
 
 /* footer */
 .footer {
